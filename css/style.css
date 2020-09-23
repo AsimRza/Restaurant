@@ -1,0 +1,590 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header
+{
+	position: relative;
+	height: 100vh;
+	background-image:url("../image/bg_2.jpg");
+}
+.overlay
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+
+}
+.container
+{
+	max-width: 1160px;
+	padding: 0px 20px;
+	margin: 0px auto;
+
+}
+header .head-top
+{
+ display: flex;
+}
+header .head-top span,
+header .head-top i
+{
+	margin: 5px 0px;
+	font-size: 1rem;
+ color: #999;
+ line-height: 30px;
+}
+header .head-top span
+{
+	line-height: 50px;
+}
+.col-3
+{
+	flex-basis: 30%;
+	min-width:300px; 
+}
+header nav
+{
+	width: 100%;
+	background: rgba(0,0,0,0.6); 
+}
+header ul
+{
+	display: flex;
+	flex:1;
+}
+header ul li
+{
+	list-style:none;
+}
+header ul li:first-child
+{
+ flex:1;
+}
+header nav .container
+{
+	display: flex;
+}
+header ul li a
+{
+	text-decoration: none;
+	font-size: 1.1em;
+	color: white;
+	display: inline-block;
+	padding: 20px 10px;
+}
+header nav button
+{
+	background: #c8a97e;
+	border: 0px;
+	outline: 0px;
+	color: white;
+	font-size: 0.9em;
+	padding: 10px 25px;
+	border-radius: 5px;
+	margin-left: 5px;
+	font-weight: 600;
+}
+.active
+{
+	color:#c8a97e;
+	transition:color 0.5s;
+}
+.active:hover
+{
+	color: white;
+}
+.head-content
+{
+	min-height:calc(100vh - 110px);
+
+}
+.head-content-text
+{
+	min-height:620px;
+	background:transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.head-content-text span
+{
+	color: #c8a97e;
+	font-family: 'Great Vibes', cursive;
+	font-size: 5rem;
+}
+.head-content-text h1
+{
+	color: #fff;
+	font-size: 4rem !important;
+	  font-family: 'Poppins', sans-serif;
+}
+.head-content-items
+{
+	height: 240px;
+	border-top: 0.3px solid #999;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+.head-content-items .col-4
+{
+color: white;
+}
+.head-content-items .col-4 img
+{
+border-radius: 50%;
+}
+.head-content-items .col-4 h3
+{
+	margin: 10px 0px;
+ font-size: 1.3rem;
+}
+.head-content-items .col-4 p
+{
+
+ font-size: 1.1rem;
+}
+.col-4
+{
+	flex-basis: 25%;
+	min-width: 200px;
+	
+	
+}
+.row
+{
+	display: flex;
+	width: 100%;
+}
+#indexImTxt
+{
+	min-height:300px;
+	padding-top: 100px;
+}
+#indexImTxt .col-7 
+{
+	display: flex; 
+	justify-content: space-between;
+}
+
+.col-7
+{
+	flex-basis: 60%;
+	width: 60%;
+
+}
+.justify-content-between
+{
+	justify-content: space-between;
+}
+.img-1
+{
+	width: 48%;
+	height: 500px;
+	background-image: url("../image/about.jpg");
+	background-size: cover;
+	background-position: center;
+	transform: translateY(-40px);
+}
+.img-2
+{
+	width: 48%;
+	height: 500px;
+	background-image: url("../image/about-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.col-5
+{
+	flex-basis: 37%;
+	width: 30%;
+}
+#indexImTxt .col-5
+{
+	transform: translateY(-30px);
+}
+#indexImTxt .col-5 >span
+{
+	font-size: 6.1rem;
+	color: #c8a97e;
+	font-family: "Great Vibes", cursive;
+}
+#indexImTxt .col-5 >h6
+{
+	font-size: 3rem;
+	 font-family: 'Poppins', sans-serif;
+	transform: translateY(-72px);
+   margin-bottom: 0px;
+}
+#indexImTxt .col-5 >p
+{
+	font-size: 1.4rem;
+	transform: translateY(-72px);
+  font-family: "Poppins", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+#indexImTxt .col-5 >p >span
+{
+	font-weight: 600;
+}
+#indexImTxt .col-5 >a
+{
+	display: inline-block;
+transform: translateY(-72px);
+font-size: 3rem;
+	color: #c8a97e;
+	font-weight: 700;
+	text-decoration: none;
+}
+#IndexCounter
+{
+	margin-top:30px;
+	min-height: 200px;
+	
+}
+.text-center
+{
+	text-align: center;
+}
+.col-8
+{
+	flex-basis: 73%;
+	width: 73%;
+}
+#IndexCounter .col-8 h3
+{
+	color: #c8a97e;
+	font-size: 3rem;
+	margin-bottom: 5px;
+}
+#IndexCounter .col-8 span
+{
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+#IndexCounter .row > .col-4  p
+{
+font-family: "Poppins", Arial, sans-serif;
+	font-size: 1rem;
+}
+#Services
+{
+	min-height: 550px;
+	background: #fafafa;
+	padding-top:35px;
+}
+.col-12
+{
+	flex-basis: 100%;
+	width: 100%;
+}
+#Services .col-12 span,
+#OurMenu .col-12 span,
+#OurPersonal .col-12 span,
+#customer .col-12 span
+{
+	font-size: 5rem;
+	    color: #c8a97e;
+	        font-family: "Great Vibes", cursive;
+}
+#Services .col-12 h3,
+#OurMenu .col-12 h3,
+#OurPersonal .col-12 h3,
+#customer .col-12 h3
+{
+	font-size: 4rem;
+	font-weight: bolder;
+	transform:translateY(-72px);
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+#Services .col-3 i
+{
+	font-size: 4rem;
+	color: #c8a97e;
+}
+#Services .col-3 h3
+{
+	font-size: 2rem;
+	 font-weight: 400;
+	 margin: 14px 0px;
+}
+#Services .col-3 p
+{
+	font-size: 1.5rem;
+	color: #999;
+}
+#OurMenu
+{
+	min-height: 500px;
+	padding-top:35px;
+}
+#OurMenu .row
+{
+	flex-wrap: wrap;
+}
+.col-2
+{
+	flex-basis: 50%;
+	min-width:200px;
+
+	height: 40px;
+}
+#OurMenu .col-2 
+{
+	width: 100%;
+	min-height: 280px;
+}
+.col-text
+{
+	padding: 30px 20px;
+	border:0.5px solid #e6e6e6;
+}
+.first-text
+{
+	display: flex;
+}
+.col-text h3
+{
+	display: inline-block;
+	width: 65%;
+
+	font-size: 1.7rem;
+}
+.col-text span
+{
+	display: inline-block;
+	width: 30%;
+
+	text-align: right;
+	font-size: 2rem;
+	    color: #c8a97e;
+	    font-weight: 600;
+}
+#OurMenu .col-2 img
+{
+	width: 100%;
+	min-height: 70px;
+}
+#OurMenu .col-text button
+{
+	border:none;
+	outline: none;
+	color: white;
+	display: inline-block;
+	font-size: 1.1rem;
+	padding: 15px 30px;
+background: #c8a97e;
+border-radius: 3px;
+transition: background 0.5s color 0.5s;
+font-weight: 500;
+letter-spacing: 1px;
+}
+#OurMenu .col-text button:hover
+{
+	background: white;
+	color:#c8a97e;
+	border: 1px solid #c8a97e;
+
+}
+.ourP
+{
+	width: 75% !important;
+	font-size: 1.1rem !important;
+	margin: 20px 0px 10px;
+	font-weight: 400;
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+#OurMenu .container > .row:nth-child(odd) .col-text
+{
+order: -1;
+}
+#OurPersonal
+{
+	margin-top: 80px;
+	min-height: 400px;
+	
+}
+#OurPersonal .col-4
+{
+padding:0px 20px;
+}
+#OurPersonal .person-text
+{
+	margin-top: 16px;
+
+}
+#OurPersonal .col-4 h3
+{
+ font-weight: 550;
+ font-size: 1.5rem;
+ 	margin-bottom: 16px;
+}
+#OurPersonal .col-4 span
+{
+color: #999;
+}
+#OurPersonal .person-social
+{
+margin-top: 20px;
+display: flex;
+
+}
+#OurPersonal .person-social i
+{
+font-size: 1.4rem;
+margin-right: 10px;
+    color: #c8a97e;
+}
+#customer
+{
+	margin-top: 200px;
+ min-height: 400px;
+
+}
+#customer .person-text
+{
+	width: 60%;
+	height:170px; 
+	position: relative;
+	margin: 0px auto;
+	text-align: center;
+}
+#customer img
+{
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+}
+.comment-icon
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #c8a97e;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.3rem;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.customer-text
+{
+	text-align: center;
+	margin-top: 15px;
+}
+.customer-text p 
+{
+	font-size: 1.1rem;
+		font-weight: 450;
+		font-family: "Poppins", Arial, sans-serif;
+		color: #999;
+}
+.customer-text h3
+{
+	font-size: 2rem;
+		font-weight: 500;
+		margin-top: 30px;
+}
+.customer-text span
+{
+	font-size: 1rem;
+	color: #999;
+	display: inline-block;
+	font-weight: 600;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.pagination
+{
+margin-top: 50px;
+	
+	display: flex;
+	justify-content: center;
+}
+.pagination div
+{
+	width: 15px;
+	height: 15px;
+	background: #999;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.pagination  div:hover
+{
+	background: #c8a97e;
+}
+.pagination  div:active
+{
+	background: #c8a97e;
+	transform: scale(1.6);
+outline: 1px solid;
+}
+@media screen and (max-width: 800px)
+{
+	.row
+	{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	#OurPersonal
+	{
+		flex-basis: 100%;
+	}
+	.container
+	{
+		width: 100%;
+
+		margin: 0px auto;
+	}
+	.col-2,.col-4,.col-3,.col-7,.col-8
+	{
+
+		flex-basis:100%;
+		
+	}
+	header
+	{
+		height: 240vh !important;
+	}
+	header .head-top
+	{
+ 		width: 100%;
+ 		flex-direction: column;
+ 		text-align: center;
+
+	}
+	.head-content-items
+	{
+		flex-direction: column;
+	}
+	#OurPersonal
+	{
+			margin-top: 300px;
+	}
+	.mobile-p
+	{
+		width: 300px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 580px)
+{
+	header ul
+	{
+	flex-direction: column;
+	}
+
+}
